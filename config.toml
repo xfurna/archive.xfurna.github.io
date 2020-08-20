@@ -41,7 +41,7 @@ googleAnalytics = ""
 
   [[menu.main]]
   name = "E1ixir"
-  URL = "blog"
+  URL = "e1ixir"
   weight=3
 
   [[menu.main]]
