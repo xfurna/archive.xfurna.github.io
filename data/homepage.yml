@@ -102,33 +102,41 @@ skill:
 experience:
   enable: true
   item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: CoALapy
-      company: Pet Project
-      duration: May 2020
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: Cancer Subtype Discovery from Multimodal Data
-      company: IIT Jodhpur
+    - logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
+      title: Cancer Subtyping from Multimodal Omic Data
+      company: CB Lab, IIT Jodhpur
       duration: August 2020
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: Bio1ixir
-      company: Pet Project
-      duration: June 2019
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/fin.png?token=AG5NBSLVXXRCGVF6MXL5WDC7JAGQE
+      title: CoALapy
+      company: Open Source
+      duration: May 2020
+    - logo: https://image.flaticon.com/icons/svg/948/948818.svg
+      title: Bacteriology
+      company: BB, IIT Jodhpur
+      duration: November 2019
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/thinkathon.png?token=AG5NBSO6S3DAGKV4J66R6XS7JAK5A
       title: Thinkathon 2
-      company: IIT Jodhpur
+      company: BB222, IIT Jodhpur
       duration: April 2020
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/compact2.png?token=AG5NBSIPGUK7CLTWOWSZVOS7JAHNC
+      title: Bio1ixir
+      company: Open Source
+      duration: June 2019
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/compact2.png?token=AG5NBSIPGUK7CLTWOWSZVOS7JAHNC
+      title: CoVup
+      company: Open Source
+      duration: June 2020
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/iitjemblem.png?token=AG5NBSNN4B25AKQJK57T34S7JFPGQ
       title: IITJ emblem
       company: Pet Project
       duration: January 2020
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/techpark.png?token=AG5NBSOIUJ7DC4VO5DZMV727JAOBI
+      title: IITJ Tech Park emblem
+      company: Pet Project
+      duration: February 2020
+    - logo: https://raw.githubusercontent.com/evi1haxor/home/master/images/bbemblem.png?token=AG5NBSNBKVCTAMT2NFLWFYK7JFPV2
       title: BB emblem
       company: Pet Project
-      duration: December 2019
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: Bacteriology
-      company: IIT Jodhpur
       duration: December 2019
 
 education:

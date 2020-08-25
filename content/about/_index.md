@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "About Archit"
 date: 2019-05-12T12:14:34+06:00
-description: "This is meta description."
-author : "Sam Robbins"
-authorImage : "images/about/profile.jpg"
+description: ""
+author : "Archit Dwivedi"
+authorImage : "https://avatars3.githubusercontent.com/u/29020361?s=460&u=cc93c6b7b65a5227c111a4172b51d7e4e832ebf6&v=4"
 ---
 
 Hi! I'm Sam, a second year Computer Science student from Durham University. 

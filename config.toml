@@ -62,7 +62,7 @@ author = "Archit Dwivedi"
   formAction = "" #contact form works with formspree.io
 
   [params.footer]
-  email = "architdwivedi.off@gmail.com"
+  email = "dwivedi.2@iitj.ac.in"
   address = "Jodhpur, India"
   # googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
 
