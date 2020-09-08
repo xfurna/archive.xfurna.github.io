@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archit&#39;s Website on Evi1haxor</title>
+    <link>/</link>
+    <description>Recent content in Archit&#39;s Website on Evi1haxor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Portfolio Website</title>
+      <link>/techtrek/hugo-portfolio-website/</link>
+      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      
+      <guid>/techtrek/hugo-portfolio-website/</guid>
+      <description>Coming soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Blog init</title>
+      <link>/e1ixir/first-blog/</link>
+      <pubDate>Tue, 31 Dec 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/e1ixir/first-blog/</guid>
+      <description>1 2  blog init echo &amp;#34;Hello World!&amp;#34;   </description>
+    </item>
+    
+  </channel>
+</rss>
