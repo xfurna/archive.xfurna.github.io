@@ -35,8 +35,8 @@ googleAnalytics = ""
   weight=1
 
   [[menu.main]]
-  name = "Technoblog"
-  URL = "technoblog"
+  name = "TechTrek"
+  URL = "techtrek"
   weight=2
 
   [[menu.main]]
@@ -44,10 +44,10 @@ googleAnalytics = ""
   URL = "e1ixir"
   weight=3
 
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight=4
+  # [[menu.main]]
+  # name = "Contact"
+  # URL = "contact"
+  # weight=4
 
 
 [params]
