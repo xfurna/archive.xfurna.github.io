@@ -103,7 +103,7 @@ experience:
   enable: true
   item:
     - logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
-      title: Cancer Subtyping from Multimodal Omic Data
+      title: CaStyMOD
       company: CB Lab, IIT Jodhpur
       duration: August 2020
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/coalapy.jpg?token=AG5NBSKY7GV4VJSEMZEZUL27MEUKM
@@ -135,7 +135,7 @@ experience:
       company: Pet Project
       duration: February 2020
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bbemblem.jpg?token=AG5NBSNQOH4PR22CGMPWNB27MEUEQ
-      title: BB emblem
+      title: Dept. emblem
       company: Pet Project
       duration: December 2019
 
