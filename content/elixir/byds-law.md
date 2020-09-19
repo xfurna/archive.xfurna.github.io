@@ -1,11 +1,11 @@
 ---
-title: "Boyd's Law of Iteration init"
+title: "Boyd's Law of Iteration"
 date: 2020-09-17T14:12:47+05:30
 description: "Speed of iteration beats the quality of iteration."
 author: "Archit Dwivedi"
 type: "post"
 ---
-*The following content is taken from my [twitter thread](https://twitter.com/evi1haxor/status/1306516919386886145) about Boyd's Law of Iteration*
+*The following content is taken from my [twitter thread](https://twitter.com/evi1haxor/status/1306516919386886145) about Boyd's Law of Iteration.*
 
 ## Boyd's law of iteration: Speed of iteration beats the quality of iteration.
 
