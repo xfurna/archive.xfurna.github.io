@@ -2,15 +2,15 @@
 baseURL = "/"
 languageCode = "en-gb"
 title = "Evi1haxor"
-theme = "hugo-developer-portfolio"
-googleAnalytics = ""
+theme = "hugo-theme"
+googleAnalytics = "UA-178461293-1"
 
 # Remove this when using normally
 # themesDir = "../../" 
 # `
 [module]
   [[module.imports]]
-    path = "hugo-developer-portfolio"
+    path = "hugo-theme"
 
 # Plugins
 [params.plugins]

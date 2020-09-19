@@ -7,7 +7,7 @@ type: "post"
 ---
 *The following content is taken from my [twitter thread](https://twitter.com/evi1haxor/status/1306516919386886145) about Boyd's Law of Iteration.*
 
-## Boyd's law of iteration: Speed of iteration beats the quality of iteration.
+## Boyd's law of iteration: Speed of iteration beats the quality of iteration
 
 It was some time around the 1950s when Colonel John Boyd, an accomplished fighter pilot and strategist, got himself obsessed with an 'anomaly' pertaining to the comparative performance of two fighter jets of that era- F-86s and Mig-15s.
 
@@ -35,4 +35,4 @@ This law is fairly replicable to practically any discipline. But having been inv
 
 Any project can be refactored for the discovery of OOPA iterations. And with iteration quality and speed tuned just right, one can be as productive as never before!
 
-Tl;dr: When in doubt, iterate faster. 
+Tl;dr: When in doubt, iterate faster.

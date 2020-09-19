@@ -106,7 +106,7 @@ experience:
       title: CaStyMOD
       company: CB Lab, IIT Jodhpur
       duration: August 2020
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/coalapy.jpg?token=AG5NBSKY7GV4VJSEMZEZUL27MEUKM
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/coalapy.jpg
       title: CoALapy
       company: Open Source
       duration: May 2020
@@ -114,28 +114,28 @@ experience:
       title: Bacteriology
       company: BB, IIT Jodhpur
       duration: November 2019
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/thinkathon.jpg?token=AG5NBSPUXZYRFQDDMR23X327MEUPI
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/thinkathon.jpg
       title: Thinkathon 2
       company: BB222, IIT Jodhpur
       duration: April 2020
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bio1ixir.jpg?token=AG5NBSPXM6VLKP4COF4MHCK7MEUI6
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bio1ixir.jpg
       title: Bio1ixir
       company: Open Source
       duration: June 2019
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/covup.jpg?token=AG5NBSJVCWURK5GXHB4MFDS7MEULQ
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/covup.jpg
       title: CoVup
       company: Open Source
       duration: June 2020
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/iitjemblem.jpg?token=AG5NBSJOCGDAV5XLXPM73IC7MEUMQ
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/iitjemblem.jpg
       title: IITJ emblem
       company: Pet Project
       duration: January 2020
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/techpark.jpg?token=AG5NBSK25UR5DBYTCEJW3OC7MEUNU
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/techpark.jpg
       title: IITJ Tech Park emblem
       company: Pet Project
       duration: February 2020
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bbemblem.jpg?token=AG5NBSNQOH4PR22CGMPWNB27MEUEQ
-      title: Dept. emblem
+    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bbemblem.jpg
+      title: Dept. Emblem
       company: Pet Project
       duration: December 2019
 

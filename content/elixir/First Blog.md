@@ -1,7 +1,7 @@
 ---
 title: "Blog init"
-date: 2020-09-1T12:14:34+06:00
-description: "blog init"
+date: 2020-09-2T12:14:34+06:00
+description: "Hello World!"
 author: "Archit Dwivedi"
 type: "post"
 ---
