@@ -22,6 +22,17 @@ Python is a high-level language. Simply put, unlike compiled language, in case o
     </item>
     
     <item>
+      <title>Boyd&#39;s Law of Iteration init</title>
+      <link>/elixir/byds-law/</link>
+      <pubDate>Thu, 17 Sep 2020 14:12:47 +0530</pubDate>
+      
+      <guid>/elixir/byds-law/</guid>
+      <description>The following content is taken from my twitter thread about Boyd&amp;rsquo;s Law of Iteration
+Boyd&amp;rsquo;s law of iteration: Speed of iteration beats the quality of iteration. It was some time around the 1950s when Colonel John Boyd, an accomplished fighter pilot and strategist, got himself obsessed with an &amp;lsquo;anomaly&amp;rsquo; pertaining to the comparative performance of two fighter jets of that era- F-86s and Mig-15s.
+Having indulged in dogfights on both of those jets, he knew both of them very well.</description>
+    </item>
+    
+    <item>
       <title>Blog init</title>
       <link>/elixir/first-blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
