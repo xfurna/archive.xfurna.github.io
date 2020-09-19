@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/elixir/pyc/</loc>
+    <lastmod>2020-09-19T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>/categories/web-dev/</loc>
     <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/elixir/first-blog/</loc>
-    <lastmod>2019-12-31T12:14:34+06:00</lastmod>
   </url>
   
   <url>
@@ -40,6 +40,10 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/elixir/first-blog/</loc>
   </url>
   
   <url>

@@ -12,9 +12,19 @@
     
     
     <item>
+      <title>On Python</title>
+      <link>/elixir/pyc/</link>
+      <pubDate>Sat, 19 Sep 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/elixir/pyc/</guid>
+      <description>Many times programmers new to python find the idea of python bieng an interpreted language very unconvincing. It&amp;rsquo;s that mysterious .pyc files and __pycache__ directory that gets generated as they run their script that seed their confusion.
+Python is a high-level language. Simply put, unlike compiled language, in case of python, the source code does not get converted into an object code (followed by linking in case of compiled languages). Python code directly spits out the results hence bypassing the conversion to the object code.</description>
+    </item>
+    
+    <item>
       <title>Blog init</title>
       <link>/elixir/first-blog/</link>
-      <pubDate>Tue, 31 Dec 2019 12:14:34 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/elixir/first-blog/</guid>
       <description>1 2  blog init echo &amp;#34;Hello World!&amp;#34;   </description>
