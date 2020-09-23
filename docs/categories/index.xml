@@ -20,5 +20,41 @@
       <description></description>
     </item>
     
+    <item>
+      <title>covid</title>
+      <link>/categories/covid/</link>
+      <pubDate>Thu, 11 Jun 2020 12:30:35 +0530</pubDate>
+      
+      <guid>/categories/covid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/categories/python/</link>
+      <pubDate>Thu, 11 Jun 2020 12:30:35 +0530</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripts</title>
+      <link>/categories/scripts/</link>
+      <pubDate>Thu, 11 Jun 2020 12:30:35 +0530</pubDate>
+      
+      <guid>/categories/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service</title>
+      <link>/categories/service/</link>
+      <pubDate>Thu, 11 Jun 2020 12:30:35 +0530</pubDate>
+      
+      <guid>/categories/service/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

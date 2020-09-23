@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TechTrek on Evi1haxor</title>
-    <link>/techtrek/</link>
-    <description>Recent content in TechTrek on Evi1haxor</description>
+    <title>scripts on Evi1haxor</title>
+    <link>/categories/scripts/</link>
+    <description>Recent content in scripts on Evi1haxor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 12:30:35 +0530</lastBuildDate>
     
-	<atom:link href="/techtrek/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hugo Portfolio Website</title>
-      <link>/techtrek/hugo-portfolio-website/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-      
-      <guid>/techtrek/hugo-portfolio-website/</guid>
-      <description>Coming soon&amp;hellip;</description>
-    </item>
     
     <item>
       <title>CoVup Setu</title>
