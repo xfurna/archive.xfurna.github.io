@@ -1,7 +1,7 @@
 ---
 title: "On Python"
 date: 2020-09-19T12:14:34+06:00
-description: "Know how python is a superposition of compiled and interpreted language."
+description: "Python- a superposition of compiled and interpreted language."
 author: "Archit Dwivedi"
 type: "post"
 ---
