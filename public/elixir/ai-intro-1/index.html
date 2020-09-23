@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>Evi1haxor</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="The first in the series.">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Archit Dwivedi">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="elixir">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/techtrek">TechTrek</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/elixir">E1ixir</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="/"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/techtrek">TechTrek</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="uk-active"><a style="font-size: 18px" href="/elixir">E1ixir</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-178461293-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
+
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Introduction to AI</h1>
+    <p class="uk-text-center uk-text-lead">The first in the series.</p>
+    <p class="uk-text-center">Published on Sep 22, 2020</p>
+    <p class="uk-text-center">Reading time: 10 minutes.</p>
+    
+
+    <hr class="full-width">
+    
+
+    <div class="content">
+      <p>Movies have been portraying AI in some or the other forms for decades. Regardless of how stunning and fascinating they may look, in order to make their movies entertaining, the makers of such movies reflect various narratives about AI that is shaping our perception of the future of human civilisation. Some represent them as evil, so much so that it is believed that considering the pace of advancement in AI and machine learning technology, one day a true AI would be made that would exceed human intelligence. In some sources, that moment is referred to as the singularity. It is noteworthy that just being super-intelligent wouldn’t make the AI evil as such. Irrespective of different viewpoints of different people about the ‘free will’, I believe if that super-intelligent AI attains the free will, then it would be its call about what it would do. Because such AI would be self-reliable while at the same time, it would be able to completely look through anybody; as in, it would be able to analyse our genetic code in a way never done before. From that, it would be able to deduce every weakness and strength of that person. Nonetheless, nothing of this is happening anytime soon.</p>
+<p>In some movies, AI has been depicted as the solution of all human sufferings. Not only would it replace human non-creative/non-governing work-force hence leaving humans to do more important jobs, supposedly, for making the world a better place, but also it would pave the way for the development of the cure of all the diseases on the face of the earth (including mortality). We can see AI is revolutionising the biotechnology industry already. Future is exhilarating to consider!</p>
+<h2 id="computational-rationality">Computational Rationality</h2>
+<p>When we talk about AI, we want to escalate the idea to the subject of computational rationality. That is, in essence, the ability of an agent (an artificially intelligent entity) to accomplish a goal with maximum returns. For an AI to accomplish a task in such a way requires a sensibility, reasonability and sentience in decision making. Having said that, when we talk about decision making in computational rationality, we are interested in what decision is made rather than how the AI came up with a particular decision. This is because there can be multiple decision-making strategies. It is the decision that decides the reliability of a particular strategy and not the other way around. Also, a machine always has some computational and hardware related limitations due to which a machine might not necessarily tend to find an optimal solution. Finding an optimal solution is another layer of complexity to it.</p>
+<h2 id="brain-and-ai">Brain and AI</h2>
+<p>On many occasions, AI is compared with the brain or rather the architecture of the brain. Engineers of an AI tend to take inspiration from the brain while making one. But beyond a certain point, it is deemed a failure to understand the intricacy that a brain is. Yes, some concepts like that of neural networks and perceptrons were inspired by how the brain works but as a brain is not as modular as some software, it is implausible to reverse engineer it. On top of that, it is not the brain but how it thinks is what gives it intelligence. That’s why it is said about them that-</p>
+<blockquote>
+<p>“Brains are to intelligence what wings are to flight”</p>
+</blockquote>
+<p>As far as it is known, things that bring the brain its intelligence are- first, memory- the ability to store and recall information and second, simulation- the ability to imagine what would happen if different decisions were made.</p>
+<h2 id="risks-of-ai">Risks of AI</h2>
+<p>As discussed earlier, some movies represent the good things that could be possible because of AI while some talks about the bad aspects of AI. The ones which depict bad aspects of AI go about that in two ways- either project a super-intelligent AI overpowering humans and go in a similar line, or portray a ‘machine will be machine’ narrative by showing what may go wrong because of non-empathetic behaviours of AI. That brings us to the challenges and risks associated with AI development. Some of the prominent risks of AI include privacy violation, deepfake, algorithmic bias due to improper data generation, wealth inequality, etc.</p>
+<h2 id="formulation">Formulation</h2>
+<p>The first principle while building an AI is to model the problem into something which can be efficiently processed by a machine. This is done by looking at the problem through the lens of mathematics from various perspectives to come up with the one which can uphold desired standards in results while being able to be operated in a machine. But before you go and model your next problem for AI, consider this catch here- it is not necessary to come up with a different approach for every other problem. There are general AI techniques that can be used in a variety of problems. Learning to recognise when and how a new problem can be solved by an existing technique is what this course is all about.</p>
+<p>Having discussed the concept of computational rationality, we are now ready to put the definition of AI out there. AI s a study of computationally rational agents. Where any artificially intelligent entity can be called as an agent. The agent would perceive the surrounding and act upon it intelligently. In some sense, we can say that the agent ‘plans’ the way out in the environment in order to accomplish a goal which gives it the maximum ‘utility’. That plan depends on the strategy it takes and the surrounding they are supposed to act upon. In addition to that, to come up with an effective plan, the agent needs to have a memory (as discussed while comparing the brain with AI). There are several types of agent classified based on how they process their surroundings.</p>
+<h3 id="reflex-agents">Reflex Agents</h3>
+<p>First is the reflex agent- as the name suggests, such agents act on reflexes. They don’t do calculations before making the decisions and acts merely based on its current perception of the environment. Since it does not do calculations for decision making, there is no need for percept history in a reflex agent. It might seem confusing how the agent makes decisions without calculations. The catch is, the environment in which such an agent is implied should be predictable and the agent should have complete knowledge about the environment at all times. In technical terms, such environments are called ‘fully observable’ environments. Examples of such environments could be a chessboard (where an exact location of each piece on the board is known to the agent at all times). Opposite to that is ‘partially observable’ environment like a driveway where anything can happen without prior knowledge of the event. Such environments are unpredictable. Now a reflex agent in a fully observable environment makes decisions based on the if-else rule. For example, a reflex agent meant to switch on the AC if the temperature goes above 40 degrees. In this example, the agent has a clear cut idea about what to do as the relevant environment is fully observable. Second is the planning agent- these are the agents that plan their way beforehand. The planning (basically, decision making) is done considering the respective consequences of the actions. Based on the objective a plan is calculated beforehand rather than acting as the situation comes.</p>
+<h3 id="planning-agents">Planning Agents</h3>
+<p>Now the whole exercise of planning a solution could yield either an optimal solution or a complete solution. The optimal solution is the solution to the lowest cost and maximum utility. While a complete solution is a solution which just fulfils the goal. From this, it can be inferred that an optimal solution is a complete solution but not all complete solutions are optimal solutions. A planning agent tries to come up with an optimal solution. It considers as many possibilities as it can take while making the decision. Of course, there would always be computational or hardware limitations which would pose the effectiveness of the decision making strategy followed by the agent to come up with a plan.</p>
+<h2 id="search-problem-in-ai">Search Problem in AI</h2>
+<p>that
+One classic AI problem is the search problem. A search problem has several components.</p>
+<ul>
+<li><strong>State-space</strong>: It depicts any one of the possible ‘states’ of our system. A state of a system (or space) is defined as its condition at a given moment of time, which can be completely narrated by all the components of that system (or space).</li>
+<li><strong>Successor function:</strong> Successor function, that update our state in a state-space once a decision is made followed by related actions.</li>
+<li><strong>Start state:</strong> It is the state space from which our agent starts computing for achieving the goal with maximum utility.</li>
+<li><strong>Goal test:</strong> It is the final state space which the agent worked for. Goal tests can be more than one. Search problems are modelled in a way that the agent doesn’t really search the goal test. We make our agent look for a path to the goal test.</li>
+</ul>
+<h2 id="modelling-a-problem-in-ai">Modelling a Problem in AI</h2>
+<p>We briefly discussed the importance of modelling the problem previously. While modelling a search problem we try to imitate the environment which the agent is supposed to be working in. This imitation is an approximation of the actual world needed to be put in place so that machines can work on it as it does.</p>
+<p>There is some terminology that goes about modelling the problem for AI. State-space, as defined previously, has two components- world state and search state.</p>
+<p>World state contains every last detail of the environment while the search state contains the details like states, possible action, successor function and goal test. These details are required for planning. One may notice that the objective state of the AI is always referred to as the goal test and not the goal state. This is because depending on the problem, state-space changes. For example, if the problem is to search a path which leads to a goal state then states would be (x,y) coordinates. While if the objective is to pick up the maximum number of dots ten the states would be [(x,y), dot boolean] where dot boolean stores information about the presence of a dot at (x,y).</p>
+<h2 id="search-problem-state-space-representation">Search Problem State-space Representation</h2>
+<p>On observing carefully, it can be easily inferred that in a search problem, our state-space is transitioning from the original state to one of the possible subsequent states so on and so forth. These transitions in state-spaces can be represented as a tree or a graph. And trees and graphs being so explored data structures, we can exploit essentially any information about which path to take and which not. Although, graphs and trees of search problems differ in many senses. Some facts about state-space transition graphs-</p>
+<ul>
+<li>Each state occurs only once.</li>
+<li>Nodes are world configurations.</li>
+<li>Arcs represent successors (the result of an action).</li>
+<li>Goal test represents the set of goal nodes.</li>
+<li>We don’t store the whole graph in memory.</li>
+</ul>
+<p>Some facts about state-transition trees-</p>
+<ul>
+<li>Does not really contain every state of the search space.</li>
+<li>It depicts the possible paths that our agent can take while searching for the path to the goal.</li>
+<li>A tree is more about the paths an agent can take than the states an agent can be in.</li>
+<li>Children of each state in a tree corresponds to the successor state.</li>
+<li>For the most problem, we can never actually build a complete tree as we would have reached the goal before only.</li>
+<li>If we build the complete tree, we would end up with all the possible paths that can lead the agent to the goal test.</li>
+<li>If there’s a cycle in the graph then the tree will become infinite. Because of this, we need to put some constraints so that we don’t get stuck in a loop.</li>
+<li>For the representation of the tree, we have used the first-child-next-sibling tree (a tree which can have any number of nodes). The key property of this data structure is that tracing back from child to parent is not possible.</li>
+</ul>
+<h2 id="the-quest">The Quest!</h2>
+<p>How we explore the states in order to make a tree or graph depends on what strategy we are using. Here strategy refers to any graph algorithms like DFS, BFS, UCS, etc. As mentioned above, if there are&hellip;.</p>
+<hr>
+<p><em>This blog post is the first in a long series (I&rsquo;m positively commited this time XD). In the following sequel, I&rsquo;m going to do an in-depth analysis of various search techniques (It&rsquo;s going to have some graphics too!) or should I say, &lsquo;The Quest&rsquo;&hellip; in any case, stand by!</em></p>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:dwivedi.2@iitj.ac.in">dwivedi.2@iitj.ac.in</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="" data-caption="Jodhpur, India"
+                      data-type="iframe">Jodhpur, India</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    Archit Dwivedi
+
+
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
