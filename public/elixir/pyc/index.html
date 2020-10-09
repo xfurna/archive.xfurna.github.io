@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>Evi1haxor</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="Python- a superposition of compiled and interpreted language.">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Archit Dwivedi">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="elixir">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/techtrek">TechTrek</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/elixir">E1ixir</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="/"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/techtrek">TechTrek</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="uk-active"><a style="font-size: 18px" href="/elixir">E1ixir</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-178461293-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
+
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">On Python</h1>
+    <p class="uk-text-center uk-text-lead">Python- a superposition of compiled and interpreted language.</p>
+    <p class="uk-text-center">Published on Sep 19, 2020</p>
+    <p class="uk-text-center">Reading time: 6 minutes.</p>
+    
+
+    <hr class="full-width">
+    
+
+    <div class="content">
+      <p>Many times programmers new to python find the idea of python bieng an interpreted language very unconvincing. It&rsquo;s that mysterious <code>.pyc</code> files and <code>__pycache__</code> directory that gets generated as they run their script that seed their confusion.</p>
+<p>Python is a high-level language. Simply put, unlike compiled language, in case of python, the source code does not get converted into an object code (followed by linking in case of compiled languages). Python code directly spits out the results hence bypassing the conversion to the object code. Complexly put, python, despite being an interpreted language, the <code>.py</code> source code first gets converted to <code>.pyc</code> bytecode. This python bytcode contains a set of instructions for python’s virtual machine to execute. Quoting Python’s documentations-</p>
+<blockquote>
+<p>Python is an interpreted language, as opposed to a compiled one, though the distinction can be blurry because of the presence of the bytecode compiler. This means that source files can be run directly without explicitly creating an executable which is then run.</p>
+</blockquote>
+<p>The purpose of <code>.pyc</code> (python bytecode) is completely different from that of the binary code of any compiled language. In the case of compiled languages, this generated binary code is then directly run by the machine. One noteworthy fact about the binary code is that they are personalised to the machine which they were compiled on. A different machine with different hardware would not necessarily generate exactly the same binary.</p>
+<p>Many times these <code>.pyc</code> files are represented as some faster version of the source code (which is true in some sense) while they are more like a small cog in the process of execution of a python program, that will be carried forward by python’s virtual machine to make your source code do its thing.</p>
+<h2 id="python-virtual-machine-pvm">Python Virtual Machine (PVM)</h2>
+<p>If you ask me, what is python&rsquo;s virtual machine? I would direct you to this <a href="https://stackoverflow.com/a/2998544/11260811">brilliant answer</a> I came across on StackOverflow. Here’s a snippet from the same-</p>
+<blockquote>
+<p>This popular meme is incorrect, or, rather, constructed upon a misunderstanding of (natural) language levels: a similar mistake would be to say &ldquo;the Bible is a hardcover book&rdquo;. Let me explain that simile&hellip;</p>
+<p>&ldquo;The Bible&rdquo; is &ldquo;a book&rdquo; in the sense of being a <strong>class</strong> of (actual, physical objects identified as) books; the books identified as &ldquo;copies of the Bible&rdquo; are supposed to have something fundamental in common (the contents, although even those can be in different languages, with different acceptable translations, levels of footnotes and other annotations) &ndash; however, those books are perfectly well allowed to differ in a myriad of aspects that are <em>not</em> considered fundamental &ndash; kind of binding, the colour of binding, font(s) used in the printing, illustrations if any, wide writable margins or not, numbers and kinds of builtin bookmarks, and so on, and so forth.</p>
+<p>It&rsquo;s quite possible that a <em>typical</em> printing of the Bible would indeed be in hardcover binding &ndash; after all, it&rsquo;s a book that&rsquo;s typically meant to be read over and over, bookmarked at several places, thumbed through looking for given chapter-and-verse pointers, etc, etc, and a good hardcover binding can make a given copy last longer under such use. However, these are mundane (practical) issues that cannot be used to determine whether a given actual book object is a copy of the Bible or not: paperback printings are perfectly possible!</p>
+<p>Similarly, Python is &ldquo;a language&rdquo; in the sense of defining a class of <em>language</em> <strong>implementations</strong> which must all be similar in some fundamental respects (syntax, most semantics except those parts of those where they&rsquo;re explicitly allowed to differ) but are fully allowed to differ in just about every &ldquo;implementation&rdquo; detail &ndash; including how they deal with the source files they&rsquo;re given, whether they compile the sources to some lower-level forms (and, if so, which form &ndash; and whether they save such compiled forms, to disk or elsewhere), how they execute said forms, and so forth.</p>
+<p>The classical implementation, CPython, is often called just &ldquo;Python&rdquo; for short &ndash; but it&rsquo;s just one of several production-quality implementations, side by side with Microsoft&rsquo;s IronPython (which compiles to CLR codes, i.e., &ldquo;.NET&rdquo;), Jython (which compiles to JVM codes), PyPy (which is written in Python itself and can compile to a huge variety of &ldquo;back-end&rdquo; forms including &ldquo;just-in-time&rdquo; generated machine language). They&rsquo;re all Python (==&quot;implementations of the Python language&rdquo;) just like many superficially different book objects can all be Bibles (==&rdquo; copies of The Bible&rdquo;).</p>
+<p>If you&rsquo;re interested in CPython specifically: it compiles the source files into a Python-specific lower-level form (known as &ldquo;bytecode&rdquo;), does so automatically when needed (when there is no bytecode file corresponding to a source file, or the bytecode file is older than the source or compiled by a different Python version), usually saves the bytecode files to disk (to avoid recompiling them in the future). OTOH IronPython will typically compile to CLR codes (saving them to disk or not, depending) and Jython to JVM codes (saving them to disk or not &ndash; it will use the .class extension if it does save them).
+These lower-level forms are then executed by appropriate &ldquo;virtual machines&rdquo; also known as &ldquo;interpreters&rdquo; &ndash; the CPython VM, the .Net runtime, the Java VM (aka JVM), as appropriate.</p>
+</blockquote>
+<p>This should clear most of it.</p>
+<p>One may argue that even python implementations need the source code to be compiled to bytecode first then why is it called an interpreted language?</p>
+<p>Yes, every python implementation made till date compiles the source code to some low-level form before interpretation. But unlike compiled languages, that compilation into bytecode is no way in machine language and cannot be directly interpreted by the CPU.</p>
+<h2 id="cpython">CPython</h2>
+<p>Let’s study CPython virtual machine in particular. CPython is python implementation in C language. The interpretation in CPython VM occurs on a stack data structure. It uses three types of stacks for this purpose.</p>
+<ul>
+<li><strong>Call Stack:</strong> Each element in this stack is referred to as ‘the frames’. Each frame corresponds to one function call within the program. Whenever a function is called, a frame corresponding to that call is pushed into the stack. Likewise, whenever a function call returns, a frame is popped off the stack. Within each frame (function call) there exist two more stacks namely- evaluation stack and block stack.</li>
+<li><strong>Evaluation Stack/Data Stack:</strong> This is the executive stack where things are pushed, manipulated and finally evaluated value is popped off.</li>
+<li><strong>Block Stack:</strong> This stack keeps a track of control structure like loops, if, else, try, except, etc. It tells the interpreter which block of code is under consideration.</li>
+</ul>
+<p>For illustrating the whole process, suppose the flow of control reaches some function <code>test_fuction(var, 1)</code>. On translation to bytecode, it would have four instruction against that-</p>
+<ul>
+<li><code>LOAD_NAME</code> instruction: It observes the encounter with the aforementioned function and directs pushing of the <code>test_function</code> function object into the evaluation stack. In our function, there are two arguments. One is a variable while other is a constant. As the control meets these arguments, it filters the variables from the constants and pushes them onto the evaluation stack. ‘</li>
+<li><code>LOAD_CONST</code> instruction: <code>LOAD_NAME</code> already has the instruction to push variable arguments into the evaluation stack, the <code>LOAD_CONST</code> instruction takes care of the rest literal arguments by making them on the stack.</li>
+<li><code>CALL_FUNCTION</code> instruction: It contains information like how many positional arguments to pop so that function object comes at the top.</li>
+</ul>
+<blockquote>
+<p>For functions involving keyword arguments, a different instruction <code>CALL_FUNCTION_KW</code> is used, but with a similar principle of operation, and a third instruction, <code>CALL_FUNCTION_EX</code>, is used for function calls that involve argument unpacking with the * or ** operators.</p>
+</blockquote>
+<hr>
+<p>The content of this post has been extensively borrowed from my personal notes. Notes are personalised. I might have missed some essentials here. Therefore, I highly recommend reading the references provided below.</p>
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://opensource.com/article/18/4/introduction-python-bytecode">https://opensource.com/article/18/4/introduction-python-bytecode</a></li>
+<li><a href="http://net-informations.com/python/iq/interpreted.htm">http://net-informations.com/python/iq/interpreted.htm</a></li>
+<li><a href="https://kb.iu.edu/d/agsz">https://kb.iu.edu/d/agsz</a></li>
+<li><a href="https://towardsdatascience.com/understanding-python-bytecode-e7edaae8734d">https://towardsdatascience.com/understanding-python-bytecode-e7edaae8734d</a></li>
+</ul>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:dwivedi.2@iitj.ac.in">dwivedi.2@iitj.ac.in</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="" data-caption="Jodhpur, India"
+                      data-type="iframe">Jodhpur, India</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    Archit Dwivedi
+
+
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
