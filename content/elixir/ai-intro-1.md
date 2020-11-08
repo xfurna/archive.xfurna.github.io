@@ -39,7 +39,7 @@ First is the reflex agent- as the name suggests, such agents act on reflexes. Th
 
 ### Planning Agents
 
-Now the whole exercise of planning a solution could yield either an optimal solution or a complete solution. The optimal solution is the solution to the lowest cost and maximum utility. While a complete solution is a solution which just fulfils the goal. From this, it can be inferred that an optimal solution is a complete solution but not all complete solutions are optimal solutions. A planning agent tries to come up with an optimal solution. It considers as many possibilities as it can take while making the decision. Of course, there would always be computational or hardware limitations which would pose the effectiveness of the decision making strategy followed by the agent to come up with a plan.
+The whole exercise of planning a solution could yield either an optimal solution or a complete solution. The optimal solution is the solution to the lowest cost and maximum utility. While a complete solution is a solution which just fulfils the goal. From this, it can be inferred that an optimal solution is a complete solution but not all complete solutions are optimal solutions. A planning agent tries to come up with an optimal solution. While making the decision, it considers as many possibilities as it can take. Of course, there would always be computational or hardware limitations which would pose the effectiveness of the decision making strategy followed by the agent to come up with a plan.
 
 ## Search Problem in AI
 that
