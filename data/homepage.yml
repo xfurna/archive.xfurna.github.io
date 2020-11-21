@@ -102,8 +102,16 @@ skill:
 experience:
   enable: true
   item:
+    - logo: OccMars/envbio.jpeg
+      title: On Colonising Mars
+      company: BB322, IIT Jodhpur
+      duration: October 2020
+    - logo: zettelkastenai/logo.png
+      title: ZmsAi
+      company: Open Source (PyPi package)
+      duration: October 2020
     - logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
-      title: CaStyMOD
+      title: Cancer Subtyping Algo
       company: CB Lab, IIT Jodhpur
       duration: August 2020
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/coalapy.jpg

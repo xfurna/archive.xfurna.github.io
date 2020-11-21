@@ -6,17 +6,26 @@
     <description>Recent content in Categories on Evi1haxor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Fri, 19 Jun 2020 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 19:44:17 +0530</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>web-dev</title>
-      <link>/categories/web-dev/</link>
-      <pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
+      <title>AI</title>
+      <link>/categories/ai/</link>
+      <pubDate>Sun, 15 Nov 2020 19:44:17 +0530</pubDate>
       
-      <guid>/categories/web-dev/</guid>
+      <guid>/categories/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computational-biology</title>
+      <link>/categories/computational-biology/</link>
+      <pubDate>Sun, 15 Nov 2020 10:36:12 +0530</pubDate>
+      
+      <guid>/categories/computational-biology/</guid>
       <description></description>
     </item>
     

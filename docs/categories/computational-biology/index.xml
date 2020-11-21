@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational-biology on Evi1haxor</title>
+    <link>/categories/computational-biology/</link>
+    <description>Recent content in computational-biology on Evi1haxor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 15 Nov 2020 10:36:12 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/computational-biology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cancer Subtyping Algorithm</title>
+      <link>/techtrek/btp_report/</link>
+      <pubDate>Sun, 15 Nov 2020 10:36:12 +0530</pubDate>
+      
+      <guid>/techtrek/btp_report/</guid>
+      <description>Cancer Subtype Discovery from Multi-modal Omic Data Needless to state how bad a disease cancer is. As per WHO, cancer is the second-largest non-infectious reason for the death by natural cause in humans. The earliest cancer research dates back to the 1700s. So it has been around for a very long time, but there is no promising cure for this disease yet. We have found the cure of so many diseases.</description>
+    </item>
+    
+  </channel>
+</rss>

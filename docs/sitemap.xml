@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/ai/</loc>
+    <lastmod>2020-11-15T19:44:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-11-15T19:44:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/techtrek/zettelkastenai/</loc>
+    <lastmod>2020-11-15T19:44:17+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/techtrek/btp_report/</loc>
+    <lastmod>2020-11-15T10:36:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/computational-biology/</loc>
+    <lastmod>2020-11-15T10:36:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/elixir/ai-intro-1/</loc>
     <lastmod>2020-09-22T19:08:24+05:30</lastmod>
   </url>
@@ -15,21 +40,6 @@
   <url>
     <loc>/elixir/byds-law/</loc>
     <lastmod>2020-09-17T14:12:47+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/techtrek/hugo-portfolio-website/</loc>
-    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/web-dev/</loc>
-    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
   </url>
   
   <url>

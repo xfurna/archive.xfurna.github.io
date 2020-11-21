@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Evi1haxor</title>
+    <link>/categories/ai/</link>
+    <description>Recent content in AI on Evi1haxor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 15 Nov 2020 19:44:17 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zmsai</title>
+      <link>/techtrek/zettelkastenai/</link>
+      <pubDate>Sun, 15 Nov 2020 19:44:17 +0530</pubDate>
+      
+      <guid>/techtrek/zettelkastenai/</guid>
+      <description>Productivity is the core value of work. In the modern economy, where at every step one has to face cut-throat competition, it is becoming increasingly important to produce at an elite level. Professional activities demand an affiliation to the task at hand that can push one’s cognitive capability to its limits. In order to thrive in this new economy, one needs to master two core abilities- first, the ability to quickly master hard things and second, the ability to produce at the highest level in terms of both quality and speed.</description>
+    </item>
+    
+  </channel>
+</rss>
