@@ -1,3 +1,12 @@
+---
+title: "Draft"
+date: 2020-11-21T22:48:51+05:30
+draft: true
+description: "Speed of iteration beats the quality of iteration."
+author: "Archit Dwivedi"
+type: "post"
+drfat: true
+---
 +++
 categories = ["web-dev"]
 coders = []
@@ -20,6 +29,6 @@ url = "#"
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593603175/forestry-pos-full_lid6rs.svg"
 name = "Forestry CMS"
 url = "#"
-
+draft = true
 +++
 Coming soon...
