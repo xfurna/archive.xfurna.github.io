@@ -102,46 +102,56 @@ skill:
 experience:
   enable: true
   item:
-    - logo: OccMars/envbio.jpeg
+    - logo: OccMars/envbio.png
       title: On Colonising Mars
-      company: BB322, IIT Jodhpur
+      company: BB322 Term Paper, IIT Jodhpur
       duration: October 2020
+      
     - logo: zettelkastenai/logo.png
       title: ZmsAi
       company: Open Source (PyPi package)
       duration: October 2020
+
     - logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
       title: Cancer Subtyping Algo
-      company: CB Lab, IIT Jodhpur
+      company: BTP, CB Lab, IIT Jodhpur
       duration: August 2020
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/coalapy.jpg
       title: CoALapy
-      company: Open Source
+      company: Open Source (PyPi package)
       duration: May 2020
+
     - logo: https://image.flaticon.com/icons/svg/948/948818.svg
       title: Bacteriology
-      company: BB, IIT Jodhpur
+      company: BSBE, IIT Jodhpur
       duration: November 2019
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/thinkathon.jpg
       title: Thinkathon 2
-      company: BB222, IIT Jodhpur
+      company: BB222 Term Paper, IIT Jodhpur
       duration: April 2020
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bio1ixir.jpg
       title: Bio1ixir
       company: Open Source
       duration: June 2019
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/covup.jpg
       title: CoVup
       company: Open Source
       duration: June 2020
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/iitjemblem.jpg
       title: IITJ emblem
       company: Pet Project
       duration: January 2020
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/techpark.jpg
       title: IITJ Tech Park emblem
       company: Pet Project
       duration: February 2020
+
     - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bbemblem.jpg
       title: Dept. Emblem
       company: Pet Project
