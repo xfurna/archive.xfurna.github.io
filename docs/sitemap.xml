@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-11-23T01:51:39+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/coala/</loc>
+    <lastmod>2020-11-23T01:51:39+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/loser/coalapy/</loc>
+    <lastmod>2020-11-23T01:51:39+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/pypi/</loc>
+    <lastmod>2020-11-23T01:51:39+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/python/</loc>
+    <lastmod>2020-11-23T01:51:39+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/bb/</loc>
     <lastmod>2020-11-22T21:12:47+05:30</lastmod>
   </url>
@@ -14,11 +39,6 @@
   
   <url>
     <loc>/categories/bsbe-iitj/</loc>
-    <lastmod>2020-11-22T21:12:47+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
     <lastmod>2020-11-22T21:12:47+05:30</lastmod>
   </url>
   
@@ -99,11 +119,6 @@
   
   <url>
     <loc>/loser/covup/</loc>
-    <lastmod>2020-06-11T12:30:35+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/python/</loc>
     <lastmod>2020-06-11T12:30:35+05:30</lastmod>
   </url>
   

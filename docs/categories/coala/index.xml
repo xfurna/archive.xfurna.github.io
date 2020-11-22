@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Evi1haxor</title>
-    <link>/categories/python/</link>
-    <description>Recent content in python on Evi1haxor</description>
+    <title>coala on Evi1haxor</title>
+    <link>/categories/coala/</link>
+    <description>Recent content in coala on Evi1haxor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Mon, 23 Nov 2020 01:51:39 +0530</lastBuildDate>
     
-	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/coala/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>coalapy A pypi package for performing multimodal data clustering.
 Content  coalapy  Content About CoALa Installation  Clone coalapy Install dependencies- pipenv way Install dependencies- virtualenv way Install coalapy   Usage Dependency Graph Contributions License    About CoALa CoALa(Convex-combination of Approximate Laplacians) algorithm inside! Know more about CoALa here.
 Installation Until it is published on pypi, you have to install it in editable mode from the repository clone itself.</description>
-    </item>
-    
-    <item>
-      <title>CoVup Setu</title>
-      <link>/loser/covup/</link>
-      <pubDate>Thu, 11 Jun 2020 12:30:35 +0530</pubDate>
-      
-      <guid>/loser/covup/</guid>
-      <description>Because services that have setu in their names are rad&amp;rsquo; cool.
-Github/CoVup repository 1 2 3 4 5 6 7  ├── meta.json ├── README.md ├── scripts │ ├── main.py └── templates ├── announce.txt └── subscribers.txt   I have made such arrangements (using WayScript) that the script scripts/main.py would trigger itself off every day and send an email to all the subscribers regarding the latest CoV pandemic stats about their district (like active cases, confirmed cases, recovered cases and deceased cases).</description>
     </item>
     
   </channel>
