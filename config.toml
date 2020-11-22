@@ -37,7 +37,7 @@ googleAnalytics = "UA-178461293-1"
   [[menu.main]]
   name = "E1ixir"
   URL = "elixir"
-  weight=3
+  weight=2
 
   [[menu.main]]
   name = "About"
