@@ -30,20 +30,19 @@ googleAnalytics = "UA-178461293-1"
 [menu]
 
   [[menu.main]]
-  name = "About"
-  URL = "about"
+  name = "Loser"
+  URL = "loser"
   weight=1
-
-  [[menu.main]]
-  name = "TechTrek"
-  URL = "techtrek"
-  weight=2
 
   [[menu.main]]
   name = "E1ixir"
   URL = "elixir"
   weight=3
 
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight=3
   # [[menu.main]]
   # name = "Contact"
   # URL = "contact"
