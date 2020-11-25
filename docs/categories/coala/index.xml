@@ -13,10 +13,10 @@
     
     <item>
       <title>CoALapy</title>
-      <link>/loser/coalapy/</link>
+      <link>/schism/coalapy/</link>
       <pubDate>Mon, 23 Nov 2020 01:51:39 +0530</pubDate>
       
-      <guid>/loser/coalapy/</guid>
+      <guid>/schism/coalapy/</guid>
       <description>coalapy A pypi package for performing multimodal data clustering.
 Content  coalapy  Content About CoALa Installation  Clone coalapy Install dependencies- pipenv way Install dependencies- virtualenv way Install coalapy   Usage Dependency Graph Contributions License    About CoALa CoALa(Convex-combination of Approximate Laplacians) algorithm inside! Know more about CoALa here.
 Installation Until it is published on pypi, you have to install it in editable mode from the repository clone itself.</description>

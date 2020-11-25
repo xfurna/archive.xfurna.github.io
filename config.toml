@@ -30,8 +30,8 @@ googleAnalytics = "UA-178461293-1"
 [menu]
 
   [[menu.main]]
-  name = "Loser"
-  URL = "loser"
+  name = "Schism"
+  URL = "schism"
   weight=1
 
   [[menu.main]]
