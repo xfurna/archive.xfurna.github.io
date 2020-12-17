@@ -2,12 +2,12 @@
 banner:
   title: Hi! I’m Archit
 social:
-  twitter: "evi1haxor"
+  twitter: "xfurna"
   linkedin: archit-dwivedi-7218b5162
-  github: evi1haxor
+  github: xfurna
   gitlab: ""
   facebook: ""
-  instagram: "evi1haxor"
+  instagram: "xfurna"
   gmail: ""
 about:
   enable: true
@@ -117,7 +117,7 @@ experience:
       company: BTP, CB Lab, IIT Jodhpur
       duration: August 2020
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/coalapy.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/coalapy.jpg
       title: CoALapy
       company: Open Source (PyPi package)
       duration: May 2020
@@ -127,32 +127,32 @@ experience:
       company: BSBE, IIT Jodhpur
       duration: November 2019
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/thinkathon.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/thinkathon.jpg
       title: Thinkathon 2
       company: BB222 Term Paper, IIT Jodhpur
       duration: April 2020
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bio1ixir.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/bio1ixir.jpg
       title: Bio1ixir
       company: Open Source
       duration: June 2019
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/covup.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/covup.jpg
       title: CoVup
       company: Open Source
       duration: June 2020
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/iitjemblem.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/iitjemblem.jpg
       title: IITJ emblem
       company: Pet Project
       duration: January 2020
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/techpark.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/techpark.jpg
       title: IITJ Tech Park emblem
       company: Pet Project
       duration: February 2020
 
-    - logo: https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/bbemblem.jpg
+    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/bbemblem.jpg
       title: Dept. Emblem
       company: Pet Project
       duration: December 2019
