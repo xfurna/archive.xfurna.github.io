@@ -3,7 +3,7 @@ categories = ["AI"]
 coders = []
 date = 2020-11-15T19:44:17+05:30
 description = "Ai solution for Luhmann's Zettelkasten"
-github = ["https://github.com/evi1haxor/zettelkasten-ai/"]
+github = ["https://github.com/xfurna/zettelkasten-ai/"]
 image = "zettelkastenai/logo.png"
 title = "Zmsai"
 type = "post"
@@ -17,7 +17,7 @@ Zettelkasten was invented by a German scholar [Niklas Luhmann](https://en.wikipe
 As Luhmann describes it, Zettelkasten was originally a piece of furniture consisting of several stacks of drawers. Each drawer was supposed to have paper notes filled to the brim.
 Each new addition is meant to go in a specific drawer based on its ​topic​. Additionally, each card was supposed to be connected with all the cards that can possibly be related to that card, regardless of the drawer in which they are. As a result, an establishment as depicted below will be formed.
 
-![mind_map](https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/zettelkastenai/mind_map.png)
+![mind_map](https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/zettelkastenai/mind_map.png)
 
 There are many note-taking apps and software out there that support filtering the notesbased on tags. However, when it comes to linking components, either they do not do it at all or ask for a premium subscription. This project seized this opportunity to developan AI-based solution for uncovering the hidden topical patterns in the collection of notes in the Zettelkasten, automating the annotation of each card (document) and using those annotations to organise, summarise and enable topic-wise search of the Zettelkasten.
 

@@ -37,7 +37,7 @@ Until it is published on `pypi`, you have to install it in editable mode from th
 ### Clone coalapy
 Clone this repository and change your working directory to `coalapy/`.
 ```bash
-$ git clone https://github.com/evi1haxor/coalapy.git
+$ git clone https://github.com/xfurna/coalapy.git
 $ cd coalapy
 ```
 Installation of dependencies can be done in two ways. Follow what you feel seem fit for you.

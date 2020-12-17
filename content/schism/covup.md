@@ -3,8 +3,8 @@ categories = ["covid","scripts","python","service"]
 coders = []
 date = 2020-06-11T12:30:35+05:30
 description = "Get all the relevant pandemic related stats of the concerned districts first thing in the morning."
-github = ["https://github.com/evi1haxor/CoVup/"]
-image = "https://raw.githubusercontent.com/evi1haxor/evi1haxor.github.io/master/static/project_logos/covup.jpg?token=AG5NBSJVCWURK5GXHB4MFDS7MEULQ"
+github = ["https://github.com/xfurna/CoVup/"]
+image = "https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/covup.jpg?token=AG5NBSJVCWURK5GXHB4MFDS7MEULQ"
 title = "CoVup Setu"
 type = "post"
 +++
@@ -41,7 +41,7 @@ You can subscribe to the service by opening an issue on this repository. Make su
 ```
 
 
-If you have privacy concerns, you can share your details with me on [telegram](https://t.me/evi1haxor), privately.
+If you have privacy concerns, you can share your details with me on [telegram](https://t.me/xfurna), privately.
 
 
 **Note:** You can make muliple subscriptions too.
