@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>xfurna</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="My thoughts on Aadhar.">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Archit Dwivedi">
+  <meta name="generator" content="Hugo 0.86.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="elixir">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/schism">Schism</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/elixir">E1ixir</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="/"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/schism">Schism</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="uk-active"><a style="font-size: 18px" href="/elixir">E1ixir</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-178461293-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
+
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Aadhar</h1>
+    <p class="uk-text-center uk-text-lead">My thoughts on Aadhar.</p>
+    <p class="uk-text-center">Published on Jul 22, 2018</p>
+    <p class="uk-text-center">Reading time: 3 minutes.</p>
+    
+
+    <hr class="full-width">
+    
+
+    <div class="content">
+      <p>Aadhar though revolutionary, but not a new concept. Many countries have been using a similar system even before Aadhar could undergo strong establishment in India. Malaysian MyKad is one good old example, some more are, Indonesian eKTP, Ghana has its NIA, and Abrid is of Brazil. Be that as it may, but Aadhar definitely has given a tug to the Indian kite in its technological involvement. As of May 2018, 1.21 billion Aadhar holders, which makes  more than 99% of adult population, clearly reflects the hight of success of implementation of Aadhar in India. Or should I say, <em>piecemeal success</em>. I pass Aadhar in implementation, but what about the execution of services? Do <em>Aadhar act 2009</em> expansion to <em>Targeted Delivery of Financial and other subsidies, Benefits and Service act 2016</em> really mean it?</p>
+<p>Now talking of benefits and services, I would like to clarify some of the misconceived notions about usage of Aadhar. Aadhar have been used as the address proof, while its not supposed to be. Aadhar is acceptable as a proof of identity at airports, trains and maybe in motels, etc. It has also been used for applying for passport (as a proof of citizenship) though here it is susceptible to get compromised because as I mentioned earlier, it&rsquo;s just a proof of identity and not of citizenship. A non indian can also get his Aadhar enrollment done easily. Now here it is my duty to clarify that in <em>certain cases</em> Aadhar <em>can</em> be used as a proof of address as well as a proof of identity under the <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=98474">circular issues by RBI</a>. Like, for <a href="https://portal2.passportindia.gov.in/AppOnlineProject/popuponline/AttachmentAdvisorSub?subDocID=7001&amp;minorFlag=1">passport application</a> or <a href="http://www.thehindu.com/todays-paper/tp-national/jaitley-strongly-defends-pan-Aadhaar-link/article17595902.ece">PAN</a> card, availing jobs under many government schemes like MNREGA.</p>
+<p>Indubitably, Aadhar is the world&rsquo;s largest biometric ID system. Some see it as medium to rule them, by taking them under a bumbershoot with just a  number; some accuse it for making privacy vulnerable. And cases like <a href="http://www.opindia.com/2018/07/rohingya-muslims-hyderabad-aadhaar-passport-pancard/">this</a> not only encourage the paranoiac against the system but also renders the moot about data/identity theft, privacy security and surveillance. I can recall another of such instances back from 2017, where Jharkhand state government website accidentally displays the name, address, Aadhar number, and bank account details, of pensioners, affecting many! I recently read somewhere about another of such raised issue, when an agency trusted with collecting Aadhar data went blacklisted for ten years for publicly tweeting out some sensitive and private information of cricket M.S. Dhoni. And the list goes on! But one very brocaded issue on internet deals with the question of privacy of the Aadhar holders. Imagine your information which include, names, names of parents, PAN numbers, mobile numbers, religion, marks, status of rejection of applications, bank account numbers, IFSC codes and other sensitive information, getting leaked and available to whole world through just a Google search! You can check by yourself; search on Google by <code>aadhar number name filetype:xls -uidai</code>. You just have to scroll a bit down, skipping over the news articles on the same <em>government&rsquo;s equivalent of corrigendum</em>, catching up to .xls file type link.</p>
+<p>Thing that everyone should understand is that some loopholes in system as huge as Aadhar are inevitable. As I said many times before, we&rsquo;re a part of a huge system, we ought to learn to compromise. Moreover, as India glides through the way to progress, Aadhar will be an important tool to keep a good check on middle men, corruption and to ensure a free flow of services to <em>i</em>n<em>te</em>nd<em>ed</em> <em>pe</em>op<em>l</em>e. &ldquo;Intended people?&rdquo; You ask, well, there are many cases where a person, who&rsquo;s supposed to be below poverty line one database are having high tax returns in another database, and getting subsidies that were meant for needy people, in yet another!</p>
+<p>I find many hot debates on whether Aadhar should be made mandatory or not. If you ask me- if a 12 digits number can check or at least put a limit to corruption and tax evasion, and have quite easier enrollment process, then why shouldn&rsquo;t it?</p>
+<p>Now it&rsquo;s not like I&rsquo;m some SJW, neither I have much knowledge of how stuff works. I just read about a few stories and articles on Aadhar and cumulatively put my views that those stories projected on me. Any suggestion or criticism is most welcomed.</p>
+<p>For your kind reference, here&rsquo;s the <a href="https://drive.google.com/file/d/1bv5p856bZFJFWP2qPYoS_3CyKKwI1lo1/view?usp=drivesdk">Aadhar act</a> in PDF.</p>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:dwivedi.2@iitj.ac.in">dwivedi.2@iitj.ac.in</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="" data-caption="Jodhpur, India"
+                      data-type="iframe">Jodhpur, India</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    Archit Dwivedi
+
+
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
