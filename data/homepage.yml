@@ -38,10 +38,6 @@ skill:
       logo: https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_of_Hugo_the_static_website_generator.svg
       description: Made several static site with custom themes on hugo. Like- http://bio1ixir.github.io/
 
-    - title: Selenium
-      logo: https://www.selenium.dev/images/selenium_logo_square_red.png
-      description: Have done several web automation projects with selenium.
-
     - title: Figma
       logo: https://seeklogo.com/images/F/figma-logo-E4E21D3AEA-seeklogo.com.png
       description: Have experience working on figma.
@@ -74,10 +70,6 @@ skill:
       logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1086px-R_logo.svg.png
       description: Familiar with R.
 
-    - title: Computational Biology
-      logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
-      description: Completed my B.Tech project in computational biology at IIT Jodhpur.
-
 
 experience:
   enable: true
@@ -91,7 +83,7 @@ experience:
       title: ZmsAi
       company: Open Source (PyPi package)
       duration: October 2020
-      
+
     - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/coalapy.jpg
       title: CoALapy
       company: Open Source (PyPi package)
