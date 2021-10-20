@@ -6,18 +6,14 @@
     <description>Recent content in service on xfurna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 11 Jun 2020 12:30:35 +0530</lastBuildDate>
-    
-	<atom:link href="/categories/service/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 11 Jun 2020 12:30:35 +0530</lastBuildDate><atom:link href="/categories/service/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CoVup Setu</title>
       <link>/schism/covup/</link>
       <pubDate>Thu, 11 Jun 2020 12:30:35 +0530</pubDate>
       
       <guid>/schism/covup/</guid>
-      <description>Because services that have setu in their names are rad&amp;rsquo; cool.
+      <description>Because services that have setu in their names are rad&#39; cool.
 Github/CoVup repository 1 2 3 4 5 6 7  ├── meta.json ├── README.md ├── scripts │ ├── main.py └── templates ├── announce.txt └── subscribers.txt   I have made such arrangements (using WayScript) that the script scripts/main.py would trigger itself off every day and send an email to all the subscribers regarding the latest CoV pandemic stats about their district (like active cases, confirmed cases, recovered cases and deceased cases).</description>
     </item>
     

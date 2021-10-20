@@ -23,7 +23,7 @@
   <meta name="description" property="og:description" content="Python- a superposition of compiled and interpreted language.">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Archit Dwivedi">
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.86.0" />
 
   <!-- plugins -->
   
@@ -154,7 +154,6 @@ if (!doNotTrack) {
 
 
 
-
 <style>
   p {
     margin: 0
@@ -262,7 +261,7 @@ if (!doNotTrack) {
 <p>&ldquo;The Bible&rdquo; is &ldquo;a book&rdquo; in the sense of being a <strong>class</strong> of (actual, physical objects identified as) books; the books identified as &ldquo;copies of the Bible&rdquo; are supposed to have something fundamental in common (the contents, although even those can be in different languages, with different acceptable translations, levels of footnotes and other annotations) &ndash; however, those books are perfectly well allowed to differ in a myriad of aspects that are <em>not</em> considered fundamental &ndash; kind of binding, the colour of binding, font(s) used in the printing, illustrations if any, wide writable margins or not, numbers and kinds of builtin bookmarks, and so on, and so forth.</p>
 <p>It&rsquo;s quite possible that a <em>typical</em> printing of the Bible would indeed be in hardcover binding &ndash; after all, it&rsquo;s a book that&rsquo;s typically meant to be read over and over, bookmarked at several places, thumbed through looking for given chapter-and-verse pointers, etc, etc, and a good hardcover binding can make a given copy last longer under such use. However, these are mundane (practical) issues that cannot be used to determine whether a given actual book object is a copy of the Bible or not: paperback printings are perfectly possible!</p>
 <p>Similarly, Python is &ldquo;a language&rdquo; in the sense of defining a class of <em>language</em> <strong>implementations</strong> which must all be similar in some fundamental respects (syntax, most semantics except those parts of those where they&rsquo;re explicitly allowed to differ) but are fully allowed to differ in just about every &ldquo;implementation&rdquo; detail &ndash; including how they deal with the source files they&rsquo;re given, whether they compile the sources to some lower-level forms (and, if so, which form &ndash; and whether they save such compiled forms, to disk or elsewhere), how they execute said forms, and so forth.</p>
-<p>The classical implementation, CPython, is often called just &ldquo;Python&rdquo; for short &ndash; but it&rsquo;s just one of several production-quality implementations, side by side with Microsoft&rsquo;s IronPython (which compiles to CLR codes, i.e., &ldquo;.NET&rdquo;), Jython (which compiles to JVM codes), PyPy (which is written in Python itself and can compile to a huge variety of &ldquo;back-end&rdquo; forms including &ldquo;just-in-time&rdquo; generated machine language). They&rsquo;re all Python (==&quot;implementations of the Python language&rdquo;) just like many superficially different book objects can all be Bibles (==&rdquo; copies of The Bible&rdquo;).</p>
+<p>The classical implementation, CPython, is often called just &ldquo;Python&rdquo; for short &ndash; but it&rsquo;s just one of several production-quality implementations, side by side with Microsoft&rsquo;s IronPython (which compiles to CLR codes, i.e., &ldquo;.NET&rdquo;), Jython (which compiles to JVM codes), PyPy (which is written in Python itself and can compile to a huge variety of &ldquo;back-end&rdquo; forms including &ldquo;just-in-time&rdquo; generated machine language). They&rsquo;re all Python (==&ldquo;implementations of the Python language&rdquo;) just like many superficially different book objects can all be Bibles (==&quot; copies of The Bible&quot;).</p>
 <p>If you&rsquo;re interested in CPython specifically: it compiles the source files into a Python-specific lower-level form (known as &ldquo;bytecode&rdquo;), does so automatically when needed (when there is no bytecode file corresponding to a source file, or the bytecode file is older than the source or compiled by a different Python version), usually saves the bytecode files to disk (to avoid recompiling them in the future). OTOH IronPython will typically compile to CLR codes (saving them to disk or not, depending) and Jython to JVM codes (saving them to disk or not &ndash; it will use the .class extension if it does save them).
 These lower-level forms are then executed by appropriate &ldquo;virtual machines&rdquo; also known as &ldquo;interpreters&rdquo; &ndash; the CPython VM, the .Net runtime, the Java VM (aka JVM), as appropriate.</p>
 </blockquote>

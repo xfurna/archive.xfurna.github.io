@@ -23,7 +23,7 @@
   <meta name="description" property="og:description" content="Ai solution for Luhmann&#39;s Zettelkasten">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Archit Dwivedi">
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.86.0" />
 
   <!-- plugins -->
   
@@ -154,7 +154,6 @@ if (!doNotTrack) {
 
 
 
-
 <style>
   p {
     margin: 0
@@ -274,20 +273,20 @@ Each new addition is meant to go in a specific drawer based on its ​topic​. 
 <p>Install <code>zmsai</code> by executing the following command-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pip3 install zmsai
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pip3 install zmsai
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="test-run">Test Run</h2>
 <p>Test run using dummy docs (see <code>./custom</code>)</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai <span style="color:#5918bb;font-weight:bold">test</span>
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai <span style="color:#5918bb;font-weight:bold">test</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>It will work only if you install the project from the source code.</p>
@@ -295,85 +294,85 @@ Each new addition is meant to go in a specific drawer based on its ​topic​. 
 <p>To learn <code>n</code> topics in your Zettelkasten at <code>/path/to/your/zettelkasten/</code>-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai run -t n -p <span style="color:#0c6">&#34;/path/to/your/zettelkasten/&#34;</span>
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai run -t n -p <span style="color:#0c6">&#34;/path/to/your/zettelkasten/&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>This will create a metadata file <code>meta.zms</code> storing all the distributions exhibited by the documents in your Zettelkasten.</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#2c5dcd">[</span>Running the model<span style="color:#2c5dcd">]</span> it may take a <span style="color:#2c5dcd;font-weight:bold">while</span>. Hang tight!
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#2c5dcd">[</span>Running the model<span style="color:#2c5dcd">]</span> it may take a <span style="color:#2c5dcd;font-weight:bold">while</span>. Hang tight!
 <span style="color:#2c5dcd">[</span>Data stored<span style="color:#2c5dcd">]</span> ... kb
 </code></pre></td></tr></table>
 </div>
 </div><p>You can delete your metadata file by executing-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai delete
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai delete
 </code></pre></td></tr></table>
 </div>
 </div><p>These learnt distributions can be printed using <code>zmsai display</code>. You can pass an additional argument <code>-w</code>, the number of top most occuring words that you want to print from the distributions involing words.</p>
 <p>To display doc-topic distribution-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -d dt
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -d dt
 </code></pre></td></tr></table>
 </div>
 </div><p>To display topic-word distribution-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d tw
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d tw
 </code></pre></td></tr></table>
 </div>
 </div><p>To display doc-word distribution-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d dw
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d dw
 </code></pre></td></tr></table>
 </div>
 </div><p>To display vocabulary-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d voc
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d voc
 </code></pre></td></tr></table>
 </div>
 </div><p>To display all distributions at once-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d all
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d all
 </code></pre></td></tr></table>
 </div>
 </div><p>or simply</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display
 </code></pre></td></tr></table>
 </div>
 </div><p>This will take default value of 5 for <code>nwords</code> argument.</p>
@@ -381,26 +380,26 @@ Each new addition is meant to go in a specific drawer based on its ​topic​. 
 <p>If you get <code>ModuleNotFoundError: No module named 'sklearn'</code> error with <code>display</code>, try installing <code>scikit-learn</code> manually.</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo pip3 install -U scikit-learn
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo pip3 install -U scikit-learn
 </code></pre></td></tr></table>
 </div>
 </div><p>Alternatively, if you&rsquo;re on ubuntu, try executing the following command-</p>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai fix-ubuntu
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai fix-ubuntu
 </code></pre></td></tr></table>
 </div>
 </div><p>Feel free to raise an issue if you feel stuck.</p>
 <h2 id="manual">Manual</h2>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -417,7 +416,7 @@ Each new addition is meant to go in a specific drawer based on its ​topic​. 
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">usage: zmsai <span style="color:#2c5dcd">[</span>-h<span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>--path <span style="color:#2c5dcd">[</span>PATH<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--topics <span style="color:#2c5dcd">[</span>TOPICS<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--nwords <span style="color:#2c5dcd">[</span>NWORDS<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--distro <span style="color:#2c5dcd">[</span>DISTRO<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>task<span style="color:#2c5dcd">]</span>
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">usage: zmsai <span style="color:#2c5dcd">[</span>-h<span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>--path <span style="color:#2c5dcd">[</span>PATH<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--topics <span style="color:#2c5dcd">[</span>TOPICS<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--nwords <span style="color:#2c5dcd">[</span>NWORDS<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--distro <span style="color:#2c5dcd">[</span>DISTRO<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>task<span style="color:#2c5dcd">]</span>
 
 positional arguments:
   task                  Provide task to perform <span style="color:#2c5dcd">[</span>default : <span style="color:#0c6">&#39;run&#39;</span><span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>values : <span style="color:#0c6">&#39;run&#39;</span>, <span style="color:#0c6">&#39;delete&#39;</span>, <span style="color:#0c6">&#39;display&#39;</span>, <span style="color:#0c6">&#39;man&#39;</span>, <span style="color:#0c6">&#39;test&#39;</span>, <span style="color:#0c6">&#39;fix-ubuntu&#39;</span><span style="color:#2c5dcd">]</span>
@@ -437,7 +436,7 @@ optional arguments:
 </div><h2 id="dependency-graph">Dependency Graph</h2>
 <div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -470,7 +469,7 @@ optional arguments:
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">attrs<span style="color:#2c5dcd">==</span>20.2.0
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">attrs<span style="color:#2c5dcd">==</span>20.2.0
   - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: attrs&gt;<span style="color:#2c5dcd">=</span>17.4.0<span style="color:#2c5dcd">]</span>
 iniconfig<span style="color:#2c5dcd">==</span>1.1.1
   - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: iniconfig<span style="color:#2c5dcd">]</span>
