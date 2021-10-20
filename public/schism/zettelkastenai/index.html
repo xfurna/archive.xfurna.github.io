@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>xfurna</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="Ai solution for Luhmann&#39;s Zettelkasten">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Archit Dwivedi">
+  <meta name="generator" content="Hugo 0.86.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="schism">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/schism">Schism</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/elixir">E1ixir</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="/"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="uk-active"><a style="font-size: 18px" href="/schism">Schism</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/elixir">E1ixir</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-178461293-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
+
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Zmsai</h1>
+    <p class="uk-text-center uk-text-lead">Ai solution for Luhmann&#39;s Zettelkasten</p>
+    <p class="uk-text-center">Published on Nov 15, 2020</p>
+    <p class="uk-text-center">Reading time: 5 minutes.</p>
+    
+
+    <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-text-center uk-flex-center uk-grid-large uk-margin-small-top" uk-grid>
+      
+
+      <div>
+        
+        <a class="uk-button uk-button-default" href="https://github.com/xfurna/zettelkasten-ai/"> <span uk-icon="icon: github"></span>
+          Github</a>
+        
+      </div>
+    </div>
+    
+
+    <hr class="full-width">
+    
+
+    <div class="content">
+      <p>Productivity is the core value of work. In the modern economy, where at every step one has to face cut-throat competition, it is becoming increasingly important to produce at an elite level. Professional activities demand an affiliation to the task at hand that can push one’s cognitive capability to its limits. In order to thrive in this new economy, one needs to master two core abilities- first, the ability to quickly master hard things and second, the ability to produce at the highest level in terms of both quality and speed. Humans have a natural tendency to alter the <em>form</em> of the idea and call it innovation. In contrast, according to first-principles thinking, it is the ideas which are perceived and worked upon for optimising the <em>function</em> that renders top-class results. Such a mindset helps in connecting the ideas from various domains and come up with the solution to the problem at hand relatively efficiently.
+Luhmann’s Zettelkasten is one technique which enables the user to organise their ideas and uncover the emergent connections between them in order to think creatively. Zettelkasten is essentially a note-taking technique, but unlike its alternatives, instead of simply jotting down the ideas on paper or cloud and burying them under some thousands of such notes, all the written pieces are kept dynamic. That means maintaining a knowledge bank where every new idea is linked with old ideas to form connections. The technique elegantly rectifies the chances of <a href="https://zettelkasten.de/posts/collectors-fallacy/">collection fallacy</a> and genuinely generates value from the notes.</p>
+<p>Zettelkasten was invented by a German scholar <a href="https://en.wikipedia.org/wiki/Niklas_Luhmann">Niklas Luhmann</a>. In his almost 40 years of a research career, he published <a href="https://www.researchgate.net/publication/278131440_Niklas_Luhmann_as_organization_theorist">more than 400 scholarly articles and 70 books</a> on diverse topics ranging from biology and sociology to computer science. When asked how had been this prolific in his entire career, he replied <em>“I am not thinking everything on my own. Much of it happens in my Zettelkasten. My productivity is largely explained by the Zettelkasten method.”</em>
+As Luhmann describes it, Zettelkasten was originally a piece of furniture consisting of several stacks of drawers. Each drawer was supposed to have paper notes filled to the brim.
+Each new addition is meant to go in a specific drawer based on its ​topic​. Additionally, each card was supposed to be connected with all the cards that can possibly be related to that card, regardless of the drawer in which they are. As a result, an establishment as depicted below will be formed.</p>
+<p><img src="https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/zettelkastenai/mind_map.png" alt="mind_map"></p>
+<p>There are many note-taking apps and software out there that support filtering the notesbased on tags. However, when it comes to linking components, either they do not do it at all or ask for a premium subscription. This project seized this opportunity to developan AI-based solution for uncovering the hidden topical patterns in the collection of notes in the Zettelkasten, automating the annotation of each card (document) and using those annotations to organise, summarise and enable topic-wise search of the Zettelkasten.</p>
+<p>Read the <a href="https://drive.google.com/file/d/1IONbczPPcIZWUQib1kgxrN4nCNIoTyo8/view?usp=sharing">report</a> to know more.</p>
+<h1 id="the-project">The Project</h1>
+<p>A command line utility for topic discovery and doc-linking within the Zettelkasten using AI approaches.</p>
+<h2 id="installation">Installation</h2>
+<p>Install <code>zmsai</code> by executing the following command-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ pip3 install zmsai
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="test-run">Test Run</h2>
+<p>Test run using dummy docs (see <code>./custom</code>)</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai <span style="color:#5918bb;font-weight:bold">test</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>It will work only if you install the project from the source code.</p>
+<h2 id="usage">Usage</h2>
+<p>To learn <code>n</code> topics in your Zettelkasten at <code>/path/to/your/zettelkasten/</code>-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai run -t n -p <span style="color:#0c6">&#34;/path/to/your/zettelkasten/&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>This will create a metadata file <code>meta.zms</code> storing all the distributions exhibited by the documents in your Zettelkasten.</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#2c5dcd">[</span>Running the model<span style="color:#2c5dcd">]</span> it may take a <span style="color:#2c5dcd;font-weight:bold">while</span>. Hang tight!
+<span style="color:#2c5dcd">[</span>Data stored<span style="color:#2c5dcd">]</span> ... kb
+</code></pre></td></tr></table>
+</div>
+</div><p>You can delete your metadata file by executing-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai delete
+</code></pre></td></tr></table>
+</div>
+</div><p>These learnt distributions can be printed using <code>zmsai display</code>. You can pass an additional argument <code>-w</code>, the number of top most occuring words that you want to print from the distributions involing words.</p>
+<p>To display doc-topic distribution-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -d dt
+</code></pre></td></tr></table>
+</div>
+</div><p>To display topic-word distribution-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d tw
+</code></pre></td></tr></table>
+</div>
+</div><p>To display doc-word distribution-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d dw
+</code></pre></td></tr></table>
+</div>
+</div><p>To display vocabulary-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d voc
+</code></pre></td></tr></table>
+</div>
+</div><p>To display all distributions at once-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display -w n -d all
+</code></pre></td></tr></table>
+</div>
+</div><p>or simply</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai display
+</code></pre></td></tr></table>
+</div>
+</div><p>This will take default value of 5 for <code>nwords</code> argument.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If you get <code>ModuleNotFoundError: No module named 'sklearn'</code> error with <code>display</code>, try installing <code>scikit-learn</code> manually.</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ sudo pip3 install -U scikit-learn
+</code></pre></td></tr></table>
+</div>
+</div><p>Alternatively, if you&rsquo;re on ubuntu, try executing the following command-</p>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ zmsai fix-ubuntu
+</code></pre></td></tr></table>
+</div>
+</div><p>Feel free to raise an issue if you feel stuck.</p>
+<h2 id="manual">Manual</h2>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">usage: zmsai <span style="color:#2c5dcd">[</span>-h<span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>--path <span style="color:#2c5dcd">[</span>PATH<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--topics <span style="color:#2c5dcd">[</span>TOPICS<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--nwords <span style="color:#2c5dcd">[</span>NWORDS<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>--distro <span style="color:#2c5dcd">[</span>DISTRO<span style="color:#2c5dcd">]]</span> <span style="color:#2c5dcd">[</span>task<span style="color:#2c5dcd">]</span>
+
+positional arguments:
+  task                  Provide task to perform <span style="color:#2c5dcd">[</span>default : <span style="color:#0c6">&#39;run&#39;</span><span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>values : <span style="color:#0c6">&#39;run&#39;</span>, <span style="color:#0c6">&#39;delete&#39;</span>, <span style="color:#0c6">&#39;display&#39;</span>, <span style="color:#0c6">&#39;man&#39;</span>, <span style="color:#0c6">&#39;test&#39;</span>, <span style="color:#0c6">&#39;fix-ubuntu&#39;</span><span style="color:#2c5dcd">]</span>
+
+optional arguments:
+  -h, --help            show this <span style="color:#5918bb;font-weight:bold">help</span> message and <span style="color:#5918bb;font-weight:bold">exit</span>
+  --path <span style="color:#2c5dcd">[</span>PATH<span style="color:#2c5dcd">]</span>, -p <span style="color:#2c5dcd">[</span>PATH<span style="color:#2c5dcd">]</span>
+                        Provide directory of text files. <span style="color:#2c5dcd">[</span>with : <span style="color:#0c6">&#39;run&#39;</span><span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>default : <span style="color:#0c6">&#39;./custom&#39;</span><span style="color:#2c5dcd">]</span>
+  --topics <span style="color:#2c5dcd">[</span>TOPICS<span style="color:#2c5dcd">]</span>, -t <span style="color:#2c5dcd">[</span>TOPICS<span style="color:#2c5dcd">]</span>
+                        How many topics <span style="color:#2c5dcd;font-weight:bold">do</span> you expect? <span style="color:#2c5dcd">[</span>with : <span style="color:#0c6">&#39;run&#39;</span><span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>default : <span style="color:#0c6">&#39;number of docs&#39;</span><span style="color:#2c5dcd">]</span>
+  --nwords <span style="color:#2c5dcd">[</span>NWORDS<span style="color:#2c5dcd">]</span>, -w <span style="color:#2c5dcd">[</span>NWORDS<span style="color:#2c5dcd">]</span>
+                        How many words per topic/doc <span style="color:#2c5dcd;font-weight:bold">do</span> you want to display? <span style="color:#2c5dcd">[</span>with : <span style="color:#0c6">&#39;display&#39;</span><span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>default : 5<span style="color:#2c5dcd">]</span>
+  --distro <span style="color:#2c5dcd">[</span>DISTRO<span style="color:#2c5dcd">]</span>, -d <span style="color:#2c5dcd">[</span>DISTRO<span style="color:#2c5dcd">]</span>
+                        What distributions <span style="color:#2c5dcd;font-weight:bold">do</span> you want to display? <span style="color:#2c5dcd">[</span>with : <span style="color:#0c6">&#39;display&#39;</span><span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>default : all<span style="color:#2c5dcd">]</span> <span style="color:#2c5dcd">[</span>values : <span style="color:#0c6">&#39;dt&#39;</span>, <span style="color:#0c6">&#39;tw&#39;</span>, <span style="color:#0c6">&#39;dw&#39;</span>, <span style="color:#0c6">&#39;voc&#39;</span>, <span style="color:#0c6">&#39;all&#39;</span><span style="color:#2c5dcd">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="dependency-graph">Dependency Graph</h2>
+<div class="highlight"><div style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#4d4d4d;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">attrs<span style="color:#2c5dcd">==</span>20.2.0
+  - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: attrs&gt;<span style="color:#2c5dcd">=</span>17.4.0<span style="color:#2c5dcd">]</span>
+iniconfig<span style="color:#2c5dcd">==</span>1.1.1
+  - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: iniconfig<span style="color:#2c5dcd">]</span>
+joblib<span style="color:#2c5dcd">==</span>0.17.0
+  - scikit-learn<span style="color:#2c5dcd">==</span>0.23.2 <span style="color:#2c5dcd">[</span>requires: joblib&gt;<span style="color:#2c5dcd">=</span>0.11<span style="color:#2c5dcd">]</span>
+    - sklearn<span style="color:#2c5dcd">==</span>0.0 <span style="color:#2c5dcd">[</span>requires: scikit-learn<span style="color:#2c5dcd">]</span>
+numpy<span style="color:#2c5dcd">==</span>1.19.2
+  - scikit-learn<span style="color:#2c5dcd">==</span>0.23.2 <span style="color:#2c5dcd">[</span>requires: numpy&gt;<span style="color:#2c5dcd">=</span>1.13.3<span style="color:#2c5dcd">]</span>
+    - sklearn<span style="color:#2c5dcd">==</span>0.0 <span style="color:#2c5dcd">[</span>requires: scikit-learn<span style="color:#2c5dcd">]</span>
+  - scipy<span style="color:#2c5dcd">==</span>1.5.3 <span style="color:#2c5dcd">[</span>requires: numpy&gt;<span style="color:#2c5dcd">=</span>1.14.5<span style="color:#2c5dcd">]</span>
+    - scikit-learn<span style="color:#2c5dcd">==</span>0.23.2 <span style="color:#2c5dcd">[</span>requires: scipy&gt;<span style="color:#2c5dcd">=</span>0.19.1<span style="color:#2c5dcd">]</span>
+      - sklearn<span style="color:#2c5dcd">==</span>0.0 <span style="color:#2c5dcd">[</span>requires: scikit-learn<span style="color:#2c5dcd">]</span>
+pip<span style="color:#2c5dcd">==</span>20.1.1
+pluggy<span style="color:#2c5dcd">==</span>0.13.1
+  - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: pluggy&gt;<span style="color:#2c5dcd">=</span>0.12,&lt;1.0<span style="color:#2c5dcd">]</span>
+py<span style="color:#2c5dcd">==</span>1.9.0
+  - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: py&gt;<span style="color:#2c5dcd">=</span>1.8.2<span style="color:#2c5dcd">]</span>
+pyparsing<span style="color:#2c5dcd">==</span>2.4.7
+  - packaging<span style="color:#2c5dcd">==</span>20.4 <span style="color:#2c5dcd">[</span>requires: pyparsing&gt;<span style="color:#2c5dcd">=</span>2.0.2<span style="color:#2c5dcd">]</span>
+    - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: packaging<span style="color:#2c5dcd">]</span>
+setuptools<span style="color:#2c5dcd">==</span>46.4.0
+six<span style="color:#2c5dcd">==</span>1.15.0
+  - packaging<span style="color:#2c5dcd">==</span>20.4 <span style="color:#2c5dcd">[</span>requires: six<span style="color:#2c5dcd">]</span>
+    - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: packaging<span style="color:#2c5dcd">]</span>
+threadpoolctl<span style="color:#2c5dcd">==</span>2.1.0
+  - scikit-learn<span style="color:#2c5dcd">==</span>0.23.2 <span style="color:#2c5dcd">[</span>requires: threadpoolctl&gt;<span style="color:#2c5dcd">=</span>2.0.0<span style="color:#2c5dcd">]</span>
+    - sklearn<span style="color:#2c5dcd">==</span>0.0 <span style="color:#2c5dcd">[</span>requires: scikit-learn<span style="color:#2c5dcd">]</span>
+toml<span style="color:#2c5dcd">==</span>0.10.1
+  - pytest<span style="color:#2c5dcd">==</span>6.1.1 <span style="color:#2c5dcd">[</span>requires: toml<span style="color:#2c5dcd">]</span>
+wheel<span style="color:#2c5dcd">==</span>0.34.2
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="contribution">Contribution</h2>
+<p>Are welcome.</p>
+<h2 id="license">License</h2>
+<p><a href="https://www.gnu.org/licenses/gpl-3.0">GNU General Public License v3 (GPLv3)</a></p>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:dwivedi.2@iitj.ac.in">dwivedi.2@iitj.ac.in</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="" data-caption="Jodhpur, India"
+                      data-type="iframe">Jodhpur, India</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    Archit Dwivedi
+
+
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
