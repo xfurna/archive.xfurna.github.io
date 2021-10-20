@@ -22,10 +22,6 @@ skill:
       logo: https://image.flaticon.com/icons/svg/226/226772.svg
       description: Linux superuser.
  
-    - title: Image Manipulation
-      logo: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Inkscape.logo.svg/585px-Inkscape.logo.svg.png
-      description: Having an eye for good designs, I have done several graphic designing projects. 
- 
     - title: Blender
       logo: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/180px-Blender_logo_no_text.svg.png
       description: Have experience working on blender. 
@@ -78,25 +74,9 @@ skill:
       logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1086px-R_logo.svg.png
       description: Familiar with R.
 
-    - title: Microbiology
-      logo: https://image.flaticon.com/icons/svg/948/948818.svg
-      description: Taken the course (with lab) at IIT Jodhpur.
-
     - title: Computational Biology
       logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
       description: Completed my B.Tech project in computational biology at IIT Jodhpur.
-
-    - title: Genetics and rDNA Technology
-      logo: https://images.all-free-download.com/images/graphiclarge/plasmid_vector_116912.jpg
-      description: Taken the course (with lab) at IIT Jodhpur.
-
-    - title: Bioprocess Engineering
-      logo: https://image.flaticon.com/icons/svg/948/948802.svg
-      description: Taken the course (with lab) at IIT Jodhpur.
-
-    - title: Biochemistry
-      logo: https://image.flaticon.com/icons/svg/948/948804.svg
-      description: Taken the course (with lab) at IIT Jodhpur.
 
 
 experience:
@@ -111,26 +91,11 @@ experience:
       title: ZmsAi
       company: Open Source (PyPi package)
       duration: October 2020
-
-    - logo: https://image.flaticon.com/icons/svg/1472/1472090.svg
-      title: Cancer Subtyping Algo
-      company: BTP, CB Lab, IIT Jodhpur
-      duration: August 2020
-
+      
     - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/coalapy.jpg
       title: CoALapy
       company: Open Source (PyPi package)
       duration: May 2020
-
-    - logo: https://image.flaticon.com/icons/svg/948/948818.svg
-      title: Bacteriology
-      company: BSBE, IIT Jodhpur
-      duration: November 2019
-
-    - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/thinkathon.jpg
-      title: Thinkathon 2
-      company: BB222 Term Paper, IIT Jodhpur
-      duration: April 2020
 
     - logo: https://raw.githubusercontent.com/xfurna/xfurna.github.io/master/static/project_logos/bio1ixir.jpg
       title: Bio1ixir
