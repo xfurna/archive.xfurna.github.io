@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coala on xfurna</title>
+    <link>/categories/coala/</link>
+    <description>Recent content in coala on xfurna</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 23 Nov 2020 01:51:39 +0530</lastBuildDate><atom:link href="/categories/coala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoALapy</title>
+      <link>/schism/coalapy/</link>
+      <pubDate>Mon, 23 Nov 2020 01:51:39 +0530</pubDate>
+      
+      <guid>/schism/coalapy/</guid>
+      <description>coalapy A pypi package for performing multimodal data clustering.
+Content  coalapy  Content About CoALa Installation  Clone coalapy Install dependencies- pipenv way Install dependencies- virtualenv way Install coalapy   Usage Dependency Graph Contributions License    About CoALa CoALa(Convex-combination of Approximate Laplacians) algorithm inside! Know more about CoALa here.
+Installation Until it is published on pypi, you have to install it in editable mode from the repository clone itself.</description>
+    </item>
+    
+  </channel>
+</rss>
